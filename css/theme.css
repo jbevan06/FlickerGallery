@@ -1,0 +1,414 @@
+﻿@charset "UTF-8";
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xl-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xl-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xl-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xl-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xl-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xl-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xl-7, .col-xs-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xl-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xl-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xl-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, .col-xl-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 21px;
+  padding-right: 11px;
+  padding-top: 10px;
+}
+
+.col-xl-8 {
+  float: right;
+  min-height: 1px;
+  padding-left: 11px;
+  padding-right: 21px;
+  padding-top: 10px;
+}
+
+.col-sm-8 {
+  align-items: center;
+  min-height: 1px;
+  padding-left: 350px;
+  padding-right: 21px;
+  padding-top: 10px;
+}
+
+
+@media (min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+  .col-md-pull-12 {
+    right: 100%;
+  }
+
+}
+/*==================================================
+  Form
+==================================================== */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 19px;
+  font-size: 19.5px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  display: block;
+}
+input[type="range"] {
+  display: block;
+  width: 100%;
+}
+select[multiple],
+select[size] {
+  height: auto;
+}
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: 0;
+  outline-offset: -2px;
+}
+output {
+  display: block;
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 1.49;
+  color: #555555;
+}
+/*==================================================
+  Form Panel
+==================================================== */
+.panel {
+  position: relative;
+  margin-bottom: 27px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+.panel.panel-transparent {
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.panel.panel-border {
+  border-style: solid;
+  border-width: 0;
+}
+.panel.panel-border.top {
+  border-top-width: 5px;
+}
+.panel.panel-border.right {
+  border-right-width: 5px;
+}
+.panel.panel-border.bottom {
+  border-bottom-width: 5px;
+}
+.panel.panel-border.left {
+  border-left-width: 5px;
+}
+.panel.panel-border > .panel-heading {
+  background-color: #fafafa;
+  border-color: #e2e2e2;
+  border-top: 1px solid transparent;
+}
+.panel.panel-border > .panel-heading > .panel-title {
+  color: #999999;
+}
+.panel.panel-border.panel-default {
+  border-color: #DDD;
+}
+.panel.panel-border.panel-default > .panel-heading {
+  border-top: 1px solid transparent;
+}
+.panel-menu {
+  background-color: #fafafa;
+  padding: 12px;
+  border: 1px solid #e2e2e2;
+}
+.panel-menu.dark {
+  background-color: #f8f8f8;
+}
+.panel-body .panel-menu {
+  border-left: 0;
+  border-right: 0;
+}
+.panel-heading + .panel-menu,
+.panel-menu + .panel-body,
+.panel-body + .panel-menu,
+.panel-body + .panel-body {
+  border-top: 0;
+}
+.panel-body {
+  position: relative;
+  padding: 15px;
+  border: 1px solid #e2e2e2;
+}
+.panel-body + .panel-footer {
+  border-top: 0;
+}
+.panel-heading {
+  position: relative;
+  height: 52px;
+  line-height: 49px;
+  letter-spacing: 0.2px;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 8px;
+  background: #fafafa;
+  border: 1px solid #e2e2e2;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.panel-heading + .panel-body {
+  border-top: 0;
+}
+/*==================================================
+  Utility Classes
+==================================================== */
+.clearfix:before,
+.clearfix:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after,
+.btn-toolbar:before,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:before,
+.btn-group-vertical > .btn-group:after,
+.nav:before,
+.nav:after,
+.navbar:before,
+.navbar:after,
+.navbar-header:before,
+.navbar-header:after,
+.navbar-collapse:before,
+.navbar-collapse:after,
+.pager:before,
+.pager:after,
+.panel-body:before,
+.panel-body:after,
+.modal-footer:before,
+.modal-footer:after,
+#topbar:before,
+#topbar:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.dl-horizontal dd:after,
+.container:after,
+.container-fluid:after,
+.row:after,
+.form-horizontal .form-group:after,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:after,
+.nav:after,
+.navbar:after,
+.navbar-header:after,
+.navbar-collapse:after,
+.pager:after,
+.panel-body:after,
+.modal-footer:after,
+#topbar:after {
+  clear: both;
+}
+.center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center-children > div {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.affix {
+  position: fixed;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/*===============================================
+  Main Page 
+================================================= */
+body.external-page {
+  min-height: 0;
+  overflow: auto;
+}
+body.external-page #main {
+  overflow: hidden;
+  background: url("../img/1.jpg") no-repeat top center #2d494d;
+}
+body.external-page #main:before {
+  display: none;
+}
+body.external-page #canvas-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+body.external-page #content .admin-form {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+body.external-page #content .panel {
+  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.3);
+}
+body.external-page #content .panel-heading {
+  padding: 32px 10px 15px;
+}
+body.external-page .login-links {
+  font-size: 15px;
+  color: #DDD;
+}
+body.external-page .login-links a {
+  color: #DDD;
+  font-weight: 300;
+}
+body.external-page .login-links a.active {
+  color: #FFF;
+  font-weight: 600;
+}
+body.external-page .login-links a:hover,
+body.external-page .login-links a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+body.external-page .coming-soon-title {
+  text-align: center;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+
+
+#LightboxBack {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    opacity: 0.5;
+    display: none;
+}
+
+#LightboxPic {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+
+}
